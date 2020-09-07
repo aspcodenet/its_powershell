@@ -2,7 +2,7 @@ param (
     [Parameter(Mandatory=$true)][string]$country
  )
 $country = $country.ToLower()
- if ($country -eq "sverige" -or $kat -eq "danmark" -or $kat -eq "norge")
+ if ($country -eq "sverige" -or $country -eq "danmark" -or $country -eq "norge")
  {
      "Du bor i Skandinavien"
  }
